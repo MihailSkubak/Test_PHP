@@ -1,0 +1,70 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222;
+}
+.container{
+	width: 100%;
+    max-width: 1185px;
+	margin: 0 auto;
+}
+.team{
+	text-align: center;
+}
+.team h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 44px;
+}
+.line{
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 46.5%;
+}
+.informations {
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.information_item{
+	text-align: center;
+	color: black;
+	width: 25%;
+}
+.information_item p{
+	width: 97%;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 30px;
+	color: red;
+}
+.information_item h4{
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.information_item span{
+	font-size: 16px;
+	font-weight: 100;
+	color: gray;
+}
+.img{
+	width: 50.548%;
+	height: 125px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+@media screen and (max-width: 815px){
+	.informations {
+		display: flex;
+		flex-direction: column;
+	}
+	.information_item{
+		width: 100%;
+	    flex-direction: column;
+    }
+}
